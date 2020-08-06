@@ -15,7 +15,7 @@ Form gönderildiğinde yani submit edildiğinde, PHP tarafında dosyanın yükle
 
 ```php
 // yeni bir dosya yükleme oluşturalım
-$dosyaYukleme = new \IfYazilim\DosyaYukleme\DosyaYukleme('resim');
+$dosyaYukleme = new \ifyazilim\FileUploader\UploaderService();
 
 // dosya yüklenmiş mi
 if ($dosyaYukleme->count() === 0)
